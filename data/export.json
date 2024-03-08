@@ -1,0 +1,10 @@
+{
+  "objects": [
+    {
+      "query": "SELECT readonly_false FROM Account WHERE (NOT Name LIKE 'Sample Account%') ORDER BY Name ASC",
+      "operation": "Upsert",
+      "externalId": "Name"
+    }
+  ],
+  "excludeIdsFromCSVFiles": true
+}

@@ -1,0 +1,10 @@
+# SF
+.sfdx/
+.sf/
+
+# SFDMU
+/data/source/
+/data/target/
+/data/logs/
+/data/MissingParentRecordsReport.csv
+/data/CSVIssuesReport.csv
